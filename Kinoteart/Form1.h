@@ -51,21 +51,47 @@ namespace CppCLRWinformsProjekt {
 	private: System::Windows::Forms::ToolStripMenuItem^ Ù≥Î¸ÏËToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ ·ÓÌ˛‚‡ÌÌˇToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ ‰Ó‚≥‰Í‡ToolStripMenuItem;
-	private: System::Windows::Forms::Panel^ panel5;
-	private: System::Windows::Forms::PictureBox^ pictureBox5;
-	private: System::Windows::Forms::RichTextBox^ richTextBox5;
-	private: System::Windows::Forms::Panel^ panel4;
-	private: System::Windows::Forms::PictureBox^ pictureBox4;
-	private: System::Windows::Forms::RichTextBox^ richTextBox4;
-	private: System::Windows::Forms::Panel^ panel3;
-	private: System::Windows::Forms::PictureBox^ pictureBox3;
-	private: System::Windows::Forms::RichTextBox^ richTextBox3;
-	private: System::Windows::Forms::Panel^ panel2;
-	private: System::Windows::Forms::PictureBox^ pictureBox2;
-	private: System::Windows::Forms::RichTextBox^ richTextBox2;
+
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Panel^ panel1;
+
+	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
-	private: System::Windows::Forms::RichTextBox^ richTextBox1;
+	private: System::Windows::Forms::Panel^ panel2;
+	private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
+
+
+	private: System::Windows::Forms::TextBox^ textBox2;
+	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Label^ label26;
+
+	private: System::Windows::Forms::Label^ label20;
+	private: System::Windows::Forms::Label^ label23;
+	private: System::Windows::Forms::Label^ label25;
+	private: System::Windows::Forms::Label^ label24;
+	private: System::Windows::Forms::Label^ label22;
+	private: System::Windows::Forms::Label^ label19;
+	private: System::Windows::Forms::Label^ label17;
+	private: System::Windows::Forms::Label^ label16;
+	private: System::Windows::Forms::Label^ label18;
+	private: System::Windows::Forms::Label^ label15;
+	private: System::Windows::Forms::Label^ label21;
+	private: System::Windows::Forms::Button^ button33;
+
+
+
+
+
 
 
 
@@ -97,7 +123,7 @@ namespace CppCLRWinformsProjekt {
 		/// <summary>
 		/// Erforderliche Designervariable.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -106,37 +132,34 @@ namespace CppCLRWinformsProjekt {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Form1::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->Ù≥Î¸ÏËToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->·ÓÌ˛‚‡ÌÌˇToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->‰Ó‚≥‰Í‡ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->panel5 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
-			this->richTextBox5 = (gcnew System::Windows::Forms::RichTextBox());
-			this->panel4 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
-			this->richTextBox4 = (gcnew System::Windows::Forms::RichTextBox());
-			this->panel3 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
-			this->richTextBox3 = (gcnew System::Windows::Forms::RichTextBox());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
-			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
-			this->richTextBox2 = (gcnew System::Windows::Forms::RichTextBox());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->label26 = (gcnew System::Windows::Forms::Label());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->label17 = (gcnew System::Windows::Forms::Label());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->label21 = (gcnew System::Windows::Forms::Label());
+			this->button33 = (gcnew System::Windows::Forms::Button());
 			this->menuStrip1->SuspendLayout();
-			this->panel5->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->BeginInit();
-			this->panel4->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
-			this->panel3->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
-			this->panel2->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			this->panel2->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// menuStrip1
@@ -169,131 +192,252 @@ namespace CppCLRWinformsProjekt {
 			this->‰Ó‚≥‰Í‡ToolStripMenuItem->Size = System::Drawing::Size(61, 20);
 			this->‰Ó‚≥‰Í‡ToolStripMenuItem->Text = L"ƒÓ‚≥‰Í‡";
 			// 
-			// panel5
-			// 
-			this->panel5->Controls->Add(this->pictureBox5);
-			this->panel5->Controls->Add(this->richTextBox5);
-			this->panel5->Location = System::Drawing::Point(816, 156);
-			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(150, 279);
-			this->panel5->TabIndex = 3;
-			// 
-			// pictureBox5
-			// 
-			this->pictureBox5->Location = System::Drawing::Point(3, 3);
-			this->pictureBox5->Name = L"pictureBox5";
-			this->pictureBox5->Size = System::Drawing::Size(144, 214);
-			this->pictureBox5->TabIndex = 2;
-			this->pictureBox5->TabStop = false;
-			// 
-			// richTextBox5
-			// 
-			this->richTextBox5->Location = System::Drawing::Point(3, 223);
-			this->richTextBox5->Name = L"richTextBox5";
-			this->richTextBox5->Size = System::Drawing::Size(144, 53);
-			this->richTextBox5->TabIndex = 1;
-			this->richTextBox5->Text = L"";
-			// 
-			// panel4
-			// 
-			this->panel4->Controls->Add(this->pictureBox4);
-			this->panel4->Controls->Add(this->richTextBox4);
-			this->panel4->Location = System::Drawing::Point(624, 156);
-			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(150, 279);
-			this->panel4->TabIndex = 4;
-			// 
-			// pictureBox4
-			// 
-			this->pictureBox4->Location = System::Drawing::Point(3, 3);
-			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(144, 214);
-			this->pictureBox4->TabIndex = 2;
-			this->pictureBox4->TabStop = false;
-			// 
-			// richTextBox4
-			// 
-			this->richTextBox4->Location = System::Drawing::Point(3, 223);
-			this->richTextBox4->Name = L"richTextBox4";
-			this->richTextBox4->Size = System::Drawing::Size(144, 53);
-			this->richTextBox4->TabIndex = 1;
-			this->richTextBox4->Text = L"";
-			// 
-			// panel3
-			// 
-			this->panel3->Controls->Add(this->pictureBox3);
-			this->panel3->Controls->Add(this->richTextBox3);
-			this->panel3->Location = System::Drawing::Point(432, 156);
-			this->panel3->Name = L"panel3";
-			this->panel3->Size = System::Drawing::Size(150, 279);
-			this->panel3->TabIndex = 5;
-			// 
-			// pictureBox3
-			// 
-			this->pictureBox3->Location = System::Drawing::Point(3, 3);
-			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(144, 214);
-			this->pictureBox3->TabIndex = 2;
-			this->pictureBox3->TabStop = false;
-			// 
-			// richTextBox3
-			// 
-			this->richTextBox3->Location = System::Drawing::Point(3, 223);
-			this->richTextBox3->Name = L"richTextBox3";
-			this->richTextBox3->Size = System::Drawing::Size(144, 53);
-			this->richTextBox3->TabIndex = 1;
-			this->richTextBox3->Text = L"";
-			// 
-			// panel2
-			// 
-			this->panel2->Controls->Add(this->pictureBox2);
-			this->panel2->Controls->Add(this->richTextBox2);
-			this->panel2->Location = System::Drawing::Point(240, 156);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(150, 279);
-			this->panel2->TabIndex = 6;
-			// 
-			// pictureBox2
-			// 
-			this->pictureBox2->Location = System::Drawing::Point(3, 3);
-			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(144, 214);
-			this->pictureBox2->TabIndex = 2;
-			this->pictureBox2->TabStop = false;
-			// 
-			// richTextBox2
-			// 
-			this->richTextBox2->Location = System::Drawing::Point(3, 223);
-			this->richTextBox2->Name = L"richTextBox2";
-			this->richTextBox2->Size = System::Drawing::Size(144, 53);
-			this->richTextBox2->TabIndex = 1;
-			this->richTextBox2->Text = L"";
-			// 
 			// panel1
 			// 
+			this->panel1->Controls->Add(this->label1);
 			this->panel1->Controls->Add(this->pictureBox1);
-			this->panel1->Controls->Add(this->richTextBox1);
 			this->panel1->Location = System::Drawing::Point(48, 156);
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(150, 279);
 			this->panel1->TabIndex = 7;
 			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Location = System::Drawing::Point(52, 220);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(35, 13);
+			this->label1->TabIndex = 8;
+			this->label1->Text = L"label1";
+			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->Location = System::Drawing::Point(3, 3);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(144, 214);
 			this->pictureBox1->TabIndex = 2;
 			this->pictureBox1->TabStop = false;
 			// 
-			// richTextBox1
+			// panel2
 			// 
-			this->richTextBox1->Location = System::Drawing::Point(3, 223);
-			this->richTextBox1->Name = L"richTextBox1";
-			this->richTextBox1->Size = System::Drawing::Size(144, 53);
-			this->richTextBox1->TabIndex = 1;
-			this->richTextBox1->Text = L"";
+			this->panel2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(170)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->panel2->Controls->Add(this->dateTimePicker1);
+			this->panel2->Controls->Add(this->button33);
+			this->panel2->Controls->Add(this->textBox2);
+			this->panel2->Controls->Add(this->textBox1);
+			this->panel2->Controls->Add(this->label26);
+			this->panel2->Controls->Add(this->label21);
+			this->panel2->Controls->Add(this->label20);
+			this->panel2->Controls->Add(this->label23);
+			this->panel2->Controls->Add(this->label25);
+			this->panel2->Controls->Add(this->label24);
+			this->panel2->Controls->Add(this->label22);
+			this->panel2->Controls->Add(this->label19);
+			this->panel2->Controls->Add(this->label17);
+			this->panel2->Controls->Add(this->label16);
+			this->panel2->Controls->Add(this->label18);
+			this->panel2->Controls->Add(this->label15);
+			this->panel2->Location = System::Drawing::Point(424, 100);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(317, 371);
+			this->panel2->TabIndex = 8;
+			// 
+			// dateTimePicker1
+			// 
+			this->dateTimePicker1->CalendarMonthBackground = System::Drawing::SystemColors::WindowFrame;
+			this->dateTimePicker1->Location = System::Drawing::Point(85, 181);
+			this->dateTimePicker1->Name = L"dateTimePicker1";
+			this->dateTimePicker1->Size = System::Drawing::Size(200, 20);
+			this->dateTimePicker1->TabIndex = 3;
+			// 
+			// textBox2
+			// 
+			this->textBox2->BackColor = System::Drawing::SystemColors::WindowFrame;
+			this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->textBox2->ForeColor = System::Drawing::Color::Azure;
+			this->textBox2->Location = System::Drawing::Point(85, 141);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(200, 22);
+			this->textBox2->TabIndex = 1;
+			// 
+			// textBox1
+			// 
+			this->textBox1->BackColor = System::Drawing::SystemColors::WindowFrame;
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->textBox1->ForeColor = System::Drawing::Color::Azure;
+			this->textBox1->Location = System::Drawing::Point(85, 101);
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(200, 22);
+			this->textBox1->TabIndex = 1;
+			// 
+			// label26
+			// 
+			this->label26->AutoSize = true;
+			this->label26->BackColor = System::Drawing::Color::Transparent;
+			this->label26->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label26->ForeColor = System::Drawing::Color::Azure;
+			this->label26->Location = System::Drawing::Point(39, 183);
+			this->label26->Name = L"label26";
+			this->label26->Size = System::Drawing::Size(40, 16);
+			this->label26->TabIndex = 0;
+			this->label26->Text = L"ƒ‡Ú‡";
+			// 
+			// label20
+			// 
+			this->label20->AutoSize = true;
+			this->label20->BackColor = System::Drawing::Color::Transparent;
+			this->label20->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label20->ForeColor = System::Drawing::Color::Azure;
+			this->label20->Location = System::Drawing::Point(229, 248);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(56, 20);
+			this->label20->TabIndex = 0;
+			this->label20->Text = L"70 „Ì";
+			// 
+			// label23
+			// 
+			this->label23->AutoSize = true;
+			this->label23->BackColor = System::Drawing::Color::Transparent;
+			this->label23->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label23->ForeColor = System::Drawing::Color::Azure;
+			this->label23->Location = System::Drawing::Point(82, 223);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(14, 16);
+			this->label23->TabIndex = 0;
+			this->label23->Text = L"x";
+			// 
+			// label25
+			// 
+			this->label25->AutoSize = true;
+			this->label25->BackColor = System::Drawing::Color::Transparent;
+			this->label25->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label25->ForeColor = System::Drawing::Color::Azure;
+			this->label25->Location = System::Drawing::Point(81, 252);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(15, 16);
+			this->label25->TabIndex = 0;
+			this->label25->Text = L"y";
+			// 
+			// label24
+			// 
+			this->label24->AutoSize = true;
+			this->label24->BackColor = System::Drawing::Color::Transparent;
+			this->label24->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label24->ForeColor = System::Drawing::Color::Azure;
+			this->label24->Location = System::Drawing::Point(190, 248);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(42, 20);
+			this->label24->TabIndex = 0;
+			this->label24->Text = L"÷≥Ì‡";
+			// 
+			// label22
+			// 
+			this->label22->AutoSize = true;
+			this->label22->BackColor = System::Drawing::Color::Transparent;
+			this->label22->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label22->ForeColor = System::Drawing::Color::Azure;
+			this->label22->Location = System::Drawing::Point(33, 56);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(46, 16);
+			this->label22->TabIndex = 0;
+			this->label22->Text = L"‘≥Î¸Ï";
+			// 
+			// label19
+			// 
+			this->label19->AutoSize = true;
+			this->label19->BackColor = System::Drawing::Color::Transparent;
+			this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label19->ForeColor = System::Drawing::Color::Azure;
+			this->label19->Location = System::Drawing::Point(44, 223);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(32, 16);
+			this->label19->TabIndex = 0;
+			this->label19->Text = L"–ˇ‰";
+			// 
+			// label17
+			// 
+			this->label17->AutoSize = true;
+			this->label17->BackColor = System::Drawing::Color::Transparent;
+			this->label17->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label17->ForeColor = System::Drawing::Color::Azure;
+			this->label17->Location = System::Drawing::Point(30, 252);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(45, 16);
+			this->label17->TabIndex = 0;
+			this->label17->Text = L"Ã≥ÒˆÂ";
+			// 
+			// label16
+			// 
+			this->label16->AutoSize = true;
+			this->label16->BackColor = System::Drawing::Color::Transparent;
+			this->label16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label16->ForeColor = System::Drawing::Color::Azure;
+			this->label16->Location = System::Drawing::Point(11, 144);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(68, 16);
+			this->label16->TabIndex = 0;
+			this->label16->Text = L"“ÂÎÂÙÓÌ";
+			// 
+			// label18
+			// 
+			this->label18->AutoSize = true;
+			this->label18->BackColor = System::Drawing::Color::Transparent;
+			this->label18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label18->ForeColor = System::Drawing::Color::Azure;
+			this->label18->Location = System::Drawing::Point(200, 9);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(109, 15);
+			this->label18->TabIndex = 0;
+			this->label18->Text = L"«‡ÔÓ‚Ì≥Ú¸ ‡ÌÍÂÚÛ";
+			// 
+			// label15
+			// 
+			this->label15->AutoSize = true;
+			this->label15->BackColor = System::Drawing::Color::Transparent;
+			this->label15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label15->ForeColor = System::Drawing::Color::Azure;
+			this->label15->Location = System::Drawing::Point(49, 104);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(30, 16);
+			this->label15->TabIndex = 0;
+			this->label15->Tag = L"";
+			this->label15->Text = L"≤Ï\'ˇ";
+			// 
+			// label21
+			// 
+			this->label21->AutoSize = true;
+			this->label21->BackColor = System::Drawing::Color::Transparent;
+			this->label21->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label21->ForeColor = System::Drawing::Color::Azure;
+			this->label21->Location = System::Drawing::Point(135, 47);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(54, 25);
+			this->label21->TabIndex = 0;
+			this->label21->Text = L"’’’";
+			// 
+			// button33
+			// 
+			this->button33->Location = System::Drawing::Point(84, 298);
+			this->button33->Name = L"button33";
+			this->button33->Size = System::Drawing::Size(160, 37);
+			this->button33->TabIndex = 2;
+			this->button33->Text = L"“Ëˆ¸";
+			this->button33->UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 
@@ -301,38 +445,26 @@ namespace CppCLRWinformsProjekt {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1014, 591);
-			this->Controls->Add(this->panel5);
-			this->Controls->Add(this->panel4);
-			this->Controls->Add(this->panel3);
 			this->Controls->Add(this->panel2);
 			this->Controls->Add(this->panel1);
 			this->Controls->Add(this->menuStrip1);
 			this->Name = L"Form1";
-			this->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::Form1_Paint);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
-			this->panel5->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox5))->EndInit();
-			this->panel4->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
-			this->panel3->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
-			this->panel2->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
 
-private: System::Void Form1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
-	Graphics^ g = e->Graphics;
-	Image^ image = Image::FromFile("0.jpg");
-	Form::ClientSize = image->Size;
-	g->DrawImage(image, 0, 0, image->Size.Width, image->Size.Height);
+
+
+
+	};
 }
 
-};
-}
