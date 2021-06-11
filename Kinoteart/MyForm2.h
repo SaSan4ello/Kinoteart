@@ -161,7 +161,7 @@ namespace Kinoteart {
 			this->panel2->Controls->Add(this->label3);
 			this->panel2->Controls->Add(this->label4);
 			this->panel2->Controls->Add(this->pictureBox1);
-			this->panel2->Location = System::Drawing::Point(819, 15);
+			this->panel2->Location = System::Drawing::Point(221, 507);
 			this->panel2->Name = L"panel2";
 			this->panel2->Size = System::Drawing::Size(369, 447);
 			this->panel2->TabIndex = 0;
@@ -263,9 +263,9 @@ namespace Kinoteart {
 			this->panel4->Controls->Add(this->label7);
 			this->panel4->Controls->Add(this->label8);
 			this->panel4->Controls->Add(this->pictureBox4);
-			this->panel4->Location = System::Drawing::Point(1149, 12);
+			this->panel4->Location = System::Drawing::Point(789, 12);
 			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(372, 460);
+			this->panel4->Size = System::Drawing::Size(370, 447);
 			this->panel4->TabIndex = 0;
 			// 
 			// label7
@@ -276,7 +276,7 @@ namespace Kinoteart {
 			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label7->ForeColor = System::Drawing::Color::Azure;
-			this->label7->Location = System::Drawing::Point(3, 280);
+			this->label7->Location = System::Drawing::Point(4, 266);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(368, 177);
 			this->label7->TabIndex = 1;
@@ -290,7 +290,7 @@ namespace Kinoteart {
 			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label8->ForeColor = System::Drawing::Color::Azure;
-			this->label8->Location = System::Drawing::Point(175, 3);
+			this->label8->Location = System::Drawing::Point(176, 3);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(183, 252);
 			this->label8->TabIndex = 1;
@@ -300,9 +300,9 @@ namespace Kinoteart {
 			// pictureBox4
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(3, 3);
+			this->pictureBox4->Location = System::Drawing::Point(4, 3);
 			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(168, 272);
+			this->pictureBox4->Size = System::Drawing::Size(168, 259);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox4->TabIndex = 3;
 			this->pictureBox4->TabStop = false;
@@ -314,21 +314,22 @@ namespace Kinoteart {
 			this->panel5->Controls->Add(this->label9);
 			this->panel5->Controls->Add(this->label10);
 			this->panel5->Controls->Add(this->pictureBox5);
-			this->panel5->Location = System::Drawing::Point(1527, 12);
+			this->panel5->Location = System::Drawing::Point(1252, 15);
 			this->panel5->Name = L"panel5";
-			this->panel5->Size = System::Drawing::Size(394, 460);
+			this->panel5->Size = System::Drawing::Size(394, 439);
 			this->panel5->TabIndex = 0;
 			// 
 			// label9
 			// 
 			this->label9->AutoSize = true;
 			this->label9->BackColor = System::Drawing::Color::Transparent;
+			this->label9->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label9->ForeColor = System::Drawing::Color::Azure;
-			this->label9->Location = System::Drawing::Point(3, 280);
+			this->label9->Location = System::Drawing::Point(3, 262);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(390, 175);
+			this->label9->Size = System::Drawing::Size(392, 177);
 			this->label9->TabIndex = 1;
 			this->label9->Text = resources->GetString(L"label9.Text");
 			// 
@@ -340,19 +341,19 @@ namespace Kinoteart {
 			this->label10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label10->ForeColor = System::Drawing::Color::Azure;
-			this->label10->Location = System::Drawing::Point(175, 3);
+			this->label10->Location = System::Drawing::Point(177, 4);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(197, 252);
+			this->label10->Size = System::Drawing::Size(209, 252);
 			this->label10->TabIndex = 1;
 			this->label10->Text = L"Довід\r\n2020, США\r\n\r\nЖанри:\r\nБойовик, Трилер\r\n\r\nАктори:\r\nДжон Девід,\r\nРоберт Патті"
-				L"нсон,\r\nЕлізабет Дебікі";
+				L"нсон,  \r\nЕлізабет Дебікі";
 			// 
 			// pictureBox5
 			// 
 			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
-			this->pictureBox5->Location = System::Drawing::Point(3, 3);
+			this->pictureBox5->Location = System::Drawing::Point(4, 3);
 			this->pictureBox5->Name = L"pictureBox5";
-			this->pictureBox5->Size = System::Drawing::Size(168, 272);
+			this->pictureBox5->Size = System::Drawing::Size(168, 256);
 			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox5->TabIndex = 3;
 			this->pictureBox5->TabStop = false;

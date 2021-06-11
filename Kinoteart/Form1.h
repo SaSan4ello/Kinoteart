@@ -238,7 +238,7 @@ namespace CppCLRWinformsProjekt {
 			this->panel2->Controls->Add(this->label16);
 			this->panel2->Controls->Add(this->label18);
 			this->panel2->Controls->Add(this->label15);
-			this->panel2->Location = System::Drawing::Point(424, 100);
+			this->panel2->Location = System::Drawing::Point(306, 98);
 			this->panel2->Name = L"panel2";
 			this->panel2->Size = System::Drawing::Size(317, 371);
 			this->panel2->TabIndex = 8;
